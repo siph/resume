@@ -1,44 +1,89 @@
 ---
-title: Viktor Vaughn
+margin-left: 2cm
+margin-right: 2cm
+margin-top: 1cm
+margin-bottom: 2cm
+title: Chris Dawkins
+description-meta: 'Web developer resume'
+keywords:
+  - 'java'
+  - 'kotlin'
+  - 'linux'
+  - 'resume'
+  - 'kubernetes'
+  - 'docker'
+  - 'programmer'
+  - 'rust'
+author-meta: 'Chris Dawkins [dawkins.chris.dev@gmail.com]'
 ---
-###### [[Github](https://www.github.com/siph)] - [[Blog](https://www.dev.to/siph)] - [ v.vaughn@gmail.com ] - [ 814 332 8091 ]
-#### Experienced project manager with a track record of delivering high-quality results on time and within budget.
+###### [[Github](https://www.github.com/siph)] . [[Blog](https://www.dev.to/siph)] . [ dawkins.chris.dev@gmail.com ] . [ 740 416 5618 ]
+### Backend Software Developer
 
 ## Skills
-```Project management```
-```Team leadership```
-```Budget management```
-```Communication```
-```Problem-solving```
-```Agile methodology```
-```Microsoft Project```
-```JIRA```
-```SQL```
+```programming```
+```design```
+```architecture```
+```devops```
+```databases```
+```containers```
+```linux```
+```webservers```
 
 **Languages**: Java, Kotlin, Rust  
 **Databases**: Redis, Postgres, Neo4j  
 **Tools**: Spring, Kubernetes, Github-Actions, Linux, Nix, Git, Rest, GraphQL
 
 ## Experience
-### Jamba Juice
-##### Senior Project Manager, January 2015 - Present
-- Led cross-functional teams in the successful delivery of multiple software projects, including a major website redesign and a mobile app launch.
-- Managed budgets of up to $5 million and ensured projects were delivered on time and within scope.
-- Coordinated communication with stakeholders, including executive leadership and development teams.
+### Software Developer, Self Employed
+2020 - Present
 
-### PF Chang's
-##### Project Manager, February 2011 - December 2014
-- Managed a portfolio of software and hardware projects, including a new CRM implementation and a network infrastructure upgrade.
-- Worked closely with business analysts and technical teams to ensure project requirements were met and delivered on schedule.
-- Maintained project documentation and provided regular status updates to executive leadership.
+As a solo developer, I am responsible for the entire software development life cycle and have gained a deep understanding of the
+processes involved. This includes designing architecture and schema, implementing business logic, writing tests, building infrastructure,
+managing devops pipelines, writing documentation, and system administration. I am also a passionate open source contributor and a member
+of the NixOS Organization.
 
+**Technologies:**
+```Digitalocean```
+```Kubernetes```
+```K3s```
+```Github-Actions```
+```Docker```
+```Git```
+```Intellij```
+```Java```
+```Junit```
+```Mockito```
+```Kotlin```
+```Kubernetes```
+```Linux```
+```Maven```
+```Neovim```
+```Nixos```
+```Rust```
+```Spring Boot```
+```Spring Framework```
 
 ## Projects
-**[*resume-md*](http://www.github.com/siph/resume-md)**
+**[*Skylunch*](http://www.github.com/siph/skylunch)**
 
-Build your resume using markdown and have it generated as a pdf and html.
+Skylunch is a simple, non-blocking api built using Spring Webflux that, provided with an airport code, will return a detailed list of restaurants within a configurable radius.
+Skylunch was built for a Redis-sponsored hackathon and uses Redis as a database and Spring/Kotlin as the framework. Tests are built using junit, mockito, and testcontainers.
+Data is served over both http and graphql. Security is done via a configurable custom header. Skylunch uses Github Actions for the ci pipeline and Nix to provide a
+fully-reproducable environment from development to deployment. It is deployable to a kubernetes infrastructure built using NixOS and K3s. More information can be found in
+the project documentation.
+
+
+**[*Vidbox*](http://www.github.com/siph/vidbox)**
+
+Vidbox is a demo JVM web application written in Kotlin and is built using Spring Boot. It is secured with OpenID Connect using Keycloak and stores user-uploaded videos and images in a Postgresql database.
+Vidbox also performs simple video editing. Vidbox is easily deployable using Docker-Compose to download, network, and connect the appropriate Docker containers.
+
+
+**[*Link-lockit*](http://www.github.com/siph/link-lockit)**
+
+Link-lockit is a demo web application written in Rust and is built using the Axum web framework. Link-lockit takes user-submitted urls and wraps them via a 3rd party link-locker service. Link-lockit interacts with a Postgresql database using the object-mapping provided by the Sea-Orm library.
 
 ## Education
 
-### Reno University
-**Degree:** Bachelor of Science in Computer Science | **Years Attended:** 2016-2019 | **City, State:** Reno, NV
+### Rio Grande University
+**Program:** Software Development | **Years Attended:** 2016-2019 | **City, State:** Rio Grande, OH
