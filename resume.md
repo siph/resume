@@ -16,7 +16,7 @@ keywords:
   - 'rust'
 author-meta: 'Chris Dawkins [dawkins.chris.dev@gmail.com]'
 ---
-###### [[Github](https://www.github.com/siph)] . [[Blog](https://www.dev.to/siph)] . [ dawkins.chris.dev@gmail.com ] . [ 740 416 5618 ]
+###### [ [Github](https://www.github.com/siph) ] - [ [Blog](https://www.dev.to/siph) ] - [ dawkins.chris.dev@gmail.com ]
 ### Backend Software Developer
 
 ## Skills
