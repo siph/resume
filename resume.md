@@ -28,6 +28,7 @@ author-meta: 'Chris Dawkins [dawkins.chris.dev@gmail.com]'
 ```containers```
 ```linux```
 ```webservers```
+```cloud```
 
 **Languages**: Java, Kotlin, Rust  
 **Databases**: Redis, Postgres, Neo4j  
@@ -37,10 +38,26 @@ author-meta: 'Chris Dawkins [dawkins.chris.dev@gmail.com]'
 ### Software Developer, Self Employed
 2020 - Present
 
-As a solo developer, I am responsible for the entire software development life cycle and have gained a deep understanding of the
-processes involved. This includes designing architecture and schema, implementing business logic, writing tests, building infrastructure,
-managing devops pipelines, writing documentation, and system administration. I am also a passionate open source contributor and a member
-of the NixOS Organization.
+As a solo developer, I am responsible for the entire software development life
+cycle and have gained a deep understanding of the processes involved. This
+includes designing system-architecture and schema, implementing business logic,
+writing tests, building infrastructure, managing devops pipelines, writing
+documentation, and system administration. I am also a passionate open source
+contributor and a member of the NixOS Organization.
+
+My primary tasks consist of designing and implementing a software suite that
+faciliates the collection, generation, and monetization of content. This
+includes webscraping with tools like `jsoup`, `skrape.it`, and `selenium`. I also
+have experience with tools like `ffmpeg` to edit, normalize, combine, or
+otherwise manipulate video and audio files.
+
+I enjoy trying different tecnologies and exploring new solutions to problems.
+My time as a solo developer has significantly deepened my self-sufficient
+nature and my ability to quickly and easily learn new things. Being able to
+only rely on myself has also sharpened my ability to always deliver a product
+regardless of the obstacles and given me a unique insight into some of the
+design-patterns and choices used to solve architectural and process-related
+problems.
 
 **Technologies:**
 ```Digitalocean```
