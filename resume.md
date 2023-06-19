@@ -32,7 +32,7 @@ author-meta: 'Chris Dawkins [dawkins.chris.dev@gmail.com]'
 
 **Languages**: Java, Kotlin, Rust  
 **Databases**: Redis, Postgres, Neo4j  
-**Tools**: Spring, Kubernetes, Github-Actions, Linux, Nix, Git, Rest, GraphQL
+**Tools**: Spring, Kubernetes, GitHub-Actions, Linux, Nix, Git, Rest, GraphQL
 
 ## Experience
 ### Software Developer, Self Employed
@@ -46,12 +46,12 @@ documentation, and system administration. I am also a passionate open source
 contributor and a member of the NixOS Organization.
 
 My primary tasks consist of designing and implementing a software suite that
-faciliates the collection, generation, and monetization of content. This
+facilitates the collection, generation, and monetization of content. This
 includes webscraping with tools like `jsoup`, `skrape.it`, and `selenium`. I also
 have experience with tools like `ffmpeg` to edit, normalize, combine, or
 otherwise manipulate video and audio files.
 
-I enjoy trying different tecnologies and exploring new solutions to problems.
+I enjoy trying different technologies and exploring new solutions to problems.
 My time as a solo developer has significantly deepened my self-sufficient
 nature and my ability to quickly and easily learn new things. Being able to
 only rely on myself has also sharpened my ability to always deliver a product
@@ -85,8 +85,8 @@ problems.
 
 Skylunch is a simple, non-blocking api built using Spring Webflux that, provided with an airport code, will return a detailed list of restaurants within a configurable radius.
 Skylunch was built for a Redis-sponsored hackathon and uses Redis as a database and Spring/Kotlin as the framework. Tests are built using junit, mockito, and testcontainers.
-Data is served over both http and graphql. Security is done via a configurable custom header. Skylunch uses Github Actions for the ci pipeline and Nix to provide a
-fully-reproducable environment from development to deployment. It is deployable to a kubernetes infrastructure built using NixOS and K3s. More information can be found in
+Data is served over both http and graphql. Security is done via a configurable custom header. Skylunch uses GitHub Actions for the ci pipeline and Nix to provide a
+fully-reproducible environment from development to deployment. It is deployable to a kubernetes infrastructure built using NixOS and K3s. More information can be found in
 the project documentation.
 
 **[*Resume-md*](http://www.github.com/siph/resume-md)**
