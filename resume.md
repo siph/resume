@@ -89,12 +89,9 @@ Data is served over both http and graphql. Security is done via a configurable c
 fully-reproducable environment from development to deployment. It is deployable to a kubernetes infrastructure built using NixOS and K3s. More information can be found in
 the project documentation.
 
+**[*Resume-md*](http://www.github.com/siph/resume-md)**
 
-**[*Vidbox*](http://www.github.com/siph/vidbox)**
-
-Vidbox is a demo JVM web application written in Kotlin and is built using Spring Boot. It is secured with OpenID Connect using Keycloak and stores user-uploaded videos and images in a Postgresql database.
-Vidbox also performs simple video editing. Vidbox is easily deployable using Docker-Compose to download, network, and connect the appropriate Docker containers.
-
+Resume-md is a resume building and management application. With resume-md, you build your resume with markdown and the application will build stylized PDF and HTML copies of the resume. Resume-md also will automatically deploy the HTML file as a static website using GitHub Pages. This allows technically minded people to use tools that they are already familiar with (markdown, git) to achieve a professional-looking, fully web-hosted resume with minimal effort. This resume that you're reading was built with resume-md.
 
 **[*Link-lockit*](http://www.github.com/siph/link-lockit)**
 
