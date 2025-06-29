@@ -48,23 +48,24 @@ the NixOS Organization.
 I don't do leetcode.
 
 ## Skills
-```programming```
-```design```
+```ai-tooling```
 ```architecture```
-```devops```
-```databases```
-```testing```
+```cloud```
 ```containers```
+```databases```
+```design```
+```devops```
+```event-based-architecture```
 ```linux```
 ```nix```
-```webservers```
-```ai-tooling```
+```programming```
 ```system-configuration```
-```cloud```
+```testing```
+```webservers```
 
 **Languages**: Rust, Nix, Kotlin, Java, Bash, Lua, Any language that is needed!  
 **Databases**: Sqlite, SurrealDB, Redis, Postgres, Neo4j, database.json  
-**Tools**: Nix/NixOS, Cargo, GitHub+Actions, Linux, Ollama, Nushell, Docker, Kubernetes, GraphQL, huggingface/candle, Plus many more!
+**Tools**: Nix/NixOS, Cargo, GitHub+Actions, Linux, ØMQ (ZeroMQ), Ollama, Nushell, Docker, Kubernetes, GraphQL, Huggingface/Candle, Plus many more!
 
 ## Experience
 
@@ -156,6 +157,22 @@ automatically deploy the HTML file as a static website using GitHub Pages. This
 allows technically minded people to use tools that they are already familiar
 with (markdown, git) to achieve a professional-looking, fully web-hosted resume
 with minimal effort. This resume that you're reading was built with resume-md.
+
+### **[*posta*](http://www.github.com/siph/posta)**
+
+[`Posta`](https://github.com/siph/posta) is a social blogging backend built
+with SurrealDB. The project consists of a SurrealDB schema and uses Nix and
+Nushell to setup and run tests to assert correct functionality.  
+
+Some of the features that `Posta` offers:  
+
+* User signup/signin
+* Publish/edit posts
+* Leave comments
+* Favorite posts
+* Subscribe to authors/tags
+* Blocking/muting
+* Full-text-search
 
 ### **[*nixvim-flake*](https://github.com/siph/nixvim-flake)**
 
